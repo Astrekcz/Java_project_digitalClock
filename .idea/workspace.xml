@@ -5,10 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="731ac79a-1541-4c69-aecb-fe26ce1c1aa8" name="Changes" comment="simple- clock application">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Todo_list/Edit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Todo_list/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Todo_list/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/AdapterUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Pupil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/PupilAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/MainServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/ServersEA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/SimpleCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonEnum/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonEnum/ServerEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonLazyType/CommonStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonLazyType/CommonStorageSampleUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonLazyType/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonLazyType/Servers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -25,9 +41,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Astrekcz&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Astrekcz/Java_project_digitalClock.git&quot;,
+    &quot;accountId&quot;: &quot;6d44c38c-75ef-4d5a-b148-69b45acabc85&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2Z8a6eC5FCLKnhSe72fw5n8zLhI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,18 +67,26 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Builder.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CommonStorageSampleUsage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Singleton.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingletonLazyType.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Todo_list.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Clock.Main" />
+  <component name="RunManager" selected="Application.Builder.Main">
+    <configuration name="Builder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Builder.Main" />
       <module name="Java_project_digitalClock" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Clock.*" />
+          <option name="PATTERN" value="Builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +94,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Todo_list.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Todo_list.Main" />
+    <configuration name="CommonStorageSampleUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonLazyType.CommonStorageSampleUsage" />
       <module name="Java_project_digitalClock" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Todo_list.*" />
+          <option name="PATTERN" value="SingletonLazyType.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonEnum.Main" />
+      <module name="Java_project_digitalClock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingletonEnum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Singleton.MainServer" />
+      <module name="Java_project_digitalClock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonLazyType.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonLazyType.Main" />
+      <module name="Java_project_digitalClock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingletonLazyType.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,8 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Todo_list.Main" />
+        <item itemvalue="Application.Builder.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainServer" />
+        <item itemvalue="Application.SingletonLazyType.Main" />
+        <item itemvalue="Application.CommonStorageSampleUsage" />
       </list>
     </recent_temporary>
   </component>
