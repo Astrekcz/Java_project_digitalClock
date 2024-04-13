@@ -10,7 +10,11 @@ public class AdapterUsage {
                 "Nowak", "anowak@sda.pl", 19, List.of(3, 4 , 5)  )));
          for (final var student : students){
 
+             System.out.println(student.getFullName());
+             System.out.println(student.getContactDetail());
+             System.out.println(student.getResults());
+             System.out.println(student.isAdult());
+
          }
-        System.out.println(Student.getFullName());
     }
 }
