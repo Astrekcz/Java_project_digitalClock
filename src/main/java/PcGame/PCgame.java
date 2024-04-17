@@ -4,5 +4,5 @@ public interface PCgame {
     String getTitle();
     Integer getPegiAllowedAge();
     boolean isTripleAGame();
-    Requirements getRequirements();
+    //Requirements getRequirements();
 }
